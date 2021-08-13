@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+html,body {
+    margin: 0;
+}
+
+html {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-size: 92%;
+    scroll-behavior: smooth;
+   
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: brown;
+    background-image: url('/images/backgrnd-img.jpg');
+
+   
+}
+
+section{
+    padding: 2px;
+}
+
+header {
+    margin-top: -30px;
+}
+
+.container{
+    background-color: black;
+    margin: 0%;
+    
+   
+}
+
+p{
+    position: relative;
+    font-weight: 700;
+    font-size: 25px;
+    bottom: -30px;
+    left: 30px;
+}
+
+.right{
+    display: flex;
+    position: relative;
+    left: 800px;
+    bottom: 30px;
+    gap: 35px;
+    
+}
+.nv{
+    text-decoration: none;
+    color: brown;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.wrapper{
+    display: flex;
+    
+
+}
+.profile-img{
+    position: relative;
+    left: 380px;
+    top: 60px;
+
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 900;
+    position: relative;
+    left: 35px;
+    
+    
+}
+
+
+span{
+    color: black;
+}
+
+button{
+   width: 100px;
+   padding: 6px;
+   border-radius: 8px;
+   background-color: black;
+   color: white;
+   position: relative;
+   left: 34px;
+   bottom: 30px;
+}
+
+.web-icons{
+    
+   position: relative;
+   left: 60px;
+   bottom: -80px;
+   width: 250px;
+}
+#img{
+    width: 300px;
+    border-radius: 40%;
+}
